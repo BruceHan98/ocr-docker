@@ -6,16 +6,16 @@
 
 ```bash
 ├── build
-│   ├── opencv3                 # opencv 安装文件
-│   ├── paddle_inference		    # paddle 预测库
-├── ppocr					              # C++ 推理代码
-├── app.py					            # OCR 功能模块代码
+│   ├── opencv3    # opencv 安装文件
+│   ├── paddle_inference    # paddle 预测库
+├── ppocr    # C++ 推理代码
+├── app.py    # OCR 功能模块代码
 ├── Dockerfile
 ├── LICENSE.txt
-├── ocr-web.py				          # streamlit 前端 demo
+├── ocr-web.py    # streamlit 前端 demo
 ├── requirements.txt
 ├── run_docker.sh
-├── server.py					          # FastAPI
+├── server.py    # FastAPI
 ```
 
 **Paddle 预测库**
