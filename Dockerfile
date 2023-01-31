@@ -20,8 +20,6 @@ RUN /bin/sh ./tools/build.sh
 
 RUN ln -s /ppocr/build/ppocr /usr/bin/ppocr
 
-COPY note_utils.py .
-
 COPY app.py .
 
 COPY server.py .
