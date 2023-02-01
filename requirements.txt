@@ -1,7 +1,0 @@
-fastapi[all]
-loguru
-asyncio
-langdetect
-pillow
-opencv-python==3.4.17.61
-imutils

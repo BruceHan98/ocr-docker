@@ -1,24 +1,6 @@
-FROM paddlepaddle/paddle:latest-dev
+FROM brucehan98/ppocr-cpu:latest
 
 WORKDIR /ppocr
-
-RUN pip config set global.index-url http://mirrors.aliyun.com/pypi/simple
-
-RUN pip config set install.trusted-host mirrors.aliyun.com
-
-COPY requirements.txt .
-
-RUN pip install -r requirements.txt
-
-COPY build .
-
-COPY ppocr .
-
-ENV GIT_SSL_NO_VERIFY=1
-
-RUN /bin/sh ./tools/build.sh
-
-RUN ln -s /ppocr/build/ppocr /usr/bin/ppocr
 
 COPY app.py .
 

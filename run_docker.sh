@@ -4,7 +4,7 @@ docker build -t ppocr-cpu .
 # run container
 docker run --name ppocr-cpu \
   -d --ulimit core=0 \
-  -v /home/devadmin/htx/ppocr-cpu-docker/ppocr/imgs:/home/devadmin/htx/ppocr-cpu-docker/ppocr/imgs \
+  -v /root/ocr-docker/images:/root/ocr-docker/images \
   -p 9000:8000 \
   ppocr-cpu
 

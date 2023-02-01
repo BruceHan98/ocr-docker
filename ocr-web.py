@@ -19,7 +19,7 @@ st.markdown(
         f"""
 <style>
     .appview-container .main .block-container{{
-        max-width: 60%;
+        max-width: 50%;
         padding-top: 1rem;
         padding-right: 1rem;
         padding-left: 1rem;
@@ -33,7 +33,7 @@ st.markdown(
 
 types = ("通用识别", "文档识别", "身份证识别", "手写识别")
 types_dict = {"通用识别": "universal", "文档识别": "document", "身份证识别": "idcard", "手写识别": "handwritten"}
-api = "http://your_ip_address:your_port_num/online/"
+api = "http://<your_ip>:<your_port>/online/"
 
 
 @st.experimental_memo
