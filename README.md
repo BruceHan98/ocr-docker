@@ -5,13 +5,13 @@
 ### 2. 项目结构
 
 ```bash
-├── app.py                    # OCR 场景功能
-├── Dockerfile               # 构建 docker 镜像
+├── app.py               # OCR 场景功能
+├── Dockerfile           # 构建 docker 镜像
 ├── LICENSE.txt
-├── ocr-web.py             # streamlit 前端
+├── ocr-web.py           # streamlit 前端
 ├── requirements.txt     # python 依赖
 ├── run_docker.sh        # 创建 docker 容器
-├── server.py                # FastAPI 接口
+├── server.py            # FastAPI 接口
 ```
 
 **构建依赖**：
